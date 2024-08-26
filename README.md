@@ -1,0 +1,1 @@
+# naming-scope-c-.c
