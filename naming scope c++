@@ -1,0 +1,19 @@
+// naming variable
+// if you operate with the same variable outside and inside c++ will treat as two separate variable
+
+#include <iostream>
+using namespace std;
+
+int x = 6;
+
+void myFunction (){
+    int x=786;
+    cout << x<<"\n";
+
+}
+
+int main (){
+    myFunction ();
+    cout << x << "\n";
+    return 0;
+}
